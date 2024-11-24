@@ -14,8 +14,6 @@ here i selected Recommender chatbot
 The chatbot or system should recommend products to the user based on their desired product category and budget.
 
 ### DESIGN STEPS:
-
-
 #### STEP 1: Define the Inputs and Create the Prompt Template
 Identify your inputs: These are the parameters the user provides, such as a query, preferences, or constraints.
 Example: {topic} and {budget}.
@@ -60,6 +58,8 @@ print("Recommendation:", result)
 ```
 
 ### OUTPUT:
+![image](https://github.com/user-attachments/assets/03076807-3748-4f13-9f44-d4a8770acf00)
 
 
 ### RESULT:
+Thus, the implementation of the LangChain Expression Language (LCEL) expression with two parameters (`topic` and `budget`) successfully generates product recommendations based on user inputs. The process integrates a prompt, model, and output parser to create a streamlined recommendation system. The system can efficiently handle various user requests by dynamically adjusting the responses according to specified parameters.
