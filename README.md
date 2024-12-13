@@ -41,7 +41,7 @@ openai.api_key=os.environ['OPENAI_API_KEY']
 
 
 
-prompt = ChatPromptTemplate.from_template("what is the westher now in {P} .")
+prompt = ChatPromptTemplate.from_template("Recommend {Products} under {budget} .")
 model = ChatOpenAI(temperature=1.0)  #adjust the temperature to get creeative response
 output_parser = StrOutputParser()
 
